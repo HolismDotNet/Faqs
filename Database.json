@@ -1,0 +1,22 @@
+{
+    "name": "Faqs",
+    "tables": [
+        {
+            "name": "Questions",
+            "columns": [
+                {
+                    "name": "Text"
+                }
+            ]
+        },
+        {
+            "name": "AnswerContents",
+            "oneToOneWith": "Questions",
+            "columns": [
+                {
+                    "name": "Content"
+                }
+            ]
+        }
+    ]
+}
