@@ -1,6 +1,6 @@
 namespace Faqs;
 
-public class AnswerContent : IEntity
+public class AnswerContent : IEntity, IClob
 {
     public AnswerContent()
     {
